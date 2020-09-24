@@ -23,4 +23,7 @@ public class Product {
     public String getSize(){
         return size;
     }
+    public String toString(){
+        return name;
+    }
 }

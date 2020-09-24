@@ -13,7 +13,7 @@ public class Main {
         Product third = new Product(3,"third", "T", "small");
         catalog.createProduct(third);
 
-        Product fourth = new Product(236,"r", "T", "small");
+        Product fourth = new Product(3,"", "T", "small");
 
         //Проверка на id
         System.out.println("Добавляю товар с таким же id");
