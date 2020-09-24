@@ -1,4 +1,8 @@
-package PACKAGE_NAME;
+public class ProductNotValid extends Exception {
+    private String message;
 
-public class ProductNotValid {
+    ProductNotValid(String message){
+        super();
+        this.message = message;
+    }
 }
